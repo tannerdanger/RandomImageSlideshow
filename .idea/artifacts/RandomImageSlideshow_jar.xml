@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RandomImageSlideshow:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/RandomImageSlideshow_jar</output-path>
+    <root id="archive" name="RandomImageSlideshow.jar">
+      <element id="module-output" name="RandomImageSlideshow" />
+    </root>
+  </artifact>
+</component>
