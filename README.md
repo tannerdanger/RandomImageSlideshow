@@ -1,4 +1,5 @@
-Jar download link:  https://github.com/tannerdanger/RandomImageSlideshow/raw/master/RandomImageSlideshow.jar
+Jar download link: [RandomImageSlideshow.jar](RandomImageSlideshow.jar)
+
 
 Program Incomplete...
 
