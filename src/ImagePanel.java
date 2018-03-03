@@ -18,7 +18,7 @@ public class ImagePanel extends JPanel implements ActionListener {
 	protected ImagePanel(char theHotkey){
 		setLayout(new BorderLayout());
 		setBackground(Color.BLACK);
-		setSize(new Dimension(200, 500));
+		//setSize(new Dimension(200, 500));
 
 		selectDir = new JButton("Select Directory for '" + theHotkey+ "' ");
 		currentImage = new JLabel();
@@ -31,9 +31,9 @@ public class ImagePanel extends JPanel implements ActionListener {
 	}
 
 	protected void nextImage(){
-		PixelImage tempPixImg = null;
+		PixelImage tempPixImg;
 		Random rand = new Random();
-		int nextImg = rand.nextInt(availableImages.length-1);
+		int nextImg = rand.nextInt(availableImages.length);
 
 		File tempFile = availableImages[nextImg];
 		try{
