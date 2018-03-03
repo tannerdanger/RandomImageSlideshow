@@ -1,4 +1,4 @@
-Jar download link: [RandomImageSlideshow.jar](RandomImageSlideshow.jar)
+Jar download link: [slideshow.jar](slideshow.jar)
 
 
 Program Incomplete...
